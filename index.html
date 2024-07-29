@@ -8,19 +8,57 @@
 </head>
 <body>
     <!-- Content goes here  -->
-     <!-- Heaing goes here -->
-      <div>
-      <!-- <h1> Hello Bibash </h1>
-      <h6> Halo Bibash</h6>
-     <p> Hello World! This <br> &nbsp; &nbsp; &nbsp;is a <br> <i>Formatted paragraph</i> in my own <br> style done using html tag. <br> 
-        &nbsp;  &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  <i><b>-Web Tech Lab</b></i> -->
-        <pre>
-            Hello World! This 
-                 is a 
-                 Formatted paragraph in my own 
-                 style done using html tag. 
-        </pre>
-    </p>
-</div>
+     <!-- Form goes here -->
+     
+      <form class="form">
+        <fieldset>
+            <legend><h1>Personal Car Information</h1></legend>
+            <label for="fname">
+                Full Name <input type="text" placeholder="Enter your full name" id="fname">
+</label> <br>
+
+<label for="city">
+                Current City <input type="text" placeholder="Enter your current city" id="city">
+</label> <br>
+<label for="email">
+
+                Email: <input type="email" placeholder="example@gmail.com" id="email">
+  </label> <br>
+<label for="phone">
+    phone <input type="number" placeholder="9*******" id="phone">
+</label> <br>
+
+<label for="gender">
+    Gender: 
+    <input type="radio" id="gender" name="gender">Male
+    <input type="radio" id="gender"name="gender">Female
+</label> <br>
+
+<label for="bday">
+    Birthday <input type="date" id="bday">
+</label> <br>
+
+<label for="Car">
+    Choose Car Company: 
+    <select id="Car">
+        <option value="Car">Jeep</option>
+        <option value="Car">Mahindra</option>
+    </select>
+</label> <br>
+
+<label for="Info">
+    Additional Information: <br>
+    <textarea rows="20" cols="50" id="Info"> </textarea>
+</label> <br>
+
+<label for="check">
+    <input type="checkbox" >I agree to the terms and policy
+</label> <br>
+
+
+<button type="submit">Submit</button><button type="reset">Reset</button>
+</fieldset>
+      </form>
+
 </body>
 </html>
