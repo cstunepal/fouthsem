@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facebook Login Page</title>
+    <!-- Css goes here -->
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+        }
+        .container{
+            width: 100%;
+            height: 100vh;
+            background-color: whitesmoke;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .container2{
+            border: 3px solid white;
+            height: 480px;
+            width: 500px;
+            background-color: white;
+        }
+
+        .h1{
+            text-align: center;
+            color: blue;
+            font-size: 40px;
+            
+        }
+
+        .account{
+            text-align: center;
+            color: black;
+            font-size: 30px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="container2">
+            <h1 class="h1"><b>facebook</b></h1>
+            <h2 class="account"><b>Create a new account</b></h2>
+        
+            <label for="fname">
+                <input type="text" id="fname" placeholder="First name">
+            </label>
+
+            <label for="lname">
+                <input type="text" id="lname" placeholder="Last name">
+            </label> <br> <br>
+
+            <label for="info">
+                <input type="text" id="info" placeholder="Mobile number or email">
+            </label> <br> <br>
+
+            <label for="pass">
+                <input type="password" id="password" placeholder="New password">
+            </label>
+            
+            <h3>Birthday</h3>
+
+            <div style="display: flex; justify-content: space-around;">
+            <select name="month" id="bmon">
+                
+                <option>Month</option>
+                <option>January</option>
+                <option>Feburary</option>
+                <option>March</option>
+                <option>April</option>
+
+            </select>
+
+            <select name="day" id="bday">
+               
+                <option>Day</option>
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+
+            </select>
+
+            <select name="day" id="bday">
+               
+                <option>Year</option>
+                <option>20</option>
+                <option>2</option>
+                <option>3</option>
+
+            </select>
+        </div>
+
+           
+            <h3>Gender</h3>
+                <div style="display: flex; justify-content: space-between;">
+            <label for="female">
+            <input type="radio" name="gender" id="female" >Female
+        </label>
+
+        <label for="male">
+            <input type="radio" name="gender" id="male">Male
+        </label>
+
+        <label for="custom">
+            <input type="radio" name="gender" id="custom"> Custom
+        </label> 
+    </div>            <br>
+        
+        <input style="width: 100%; background-color: green; color: whitesmoke; padding: 7px; border: 3px solid green; border-radius: 7px;" type="button" value="Signup" id="btn"> <br>
+
+        <a style="display: flex;  justify-content: center; text-decoration: none;" href="Login.html">Already have an account? Log in</a>
+        </div>
+    </div>
+</body>
+</html>
